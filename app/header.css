@@ -1,0 +1,44 @@
+#navBar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+}
+
+#navBar ul li a,
+#navBar h1 {
+    color: white;
+}
+
+#navBar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+#navBar ul li a{
+    text-decoration: none;
+}
+
+#navBar ul li a:hover{
+   background-color: white;
+   color: black;
+   padding: 5px;
+   border-radius: 5px;
+   transition: all 0.5s;
+}
+
+.btn{
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    border-radius: 0;
+}
